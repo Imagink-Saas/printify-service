@@ -1,0 +1,29 @@
+{
+  "name": "printify-service-malicknnd",
+  "version": "1.0.0",
+  "description": "Microservice Node.js pour communiquer avec l'API Printify (upload, produits, commandes, catalogues)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "printify",
+    "api",
+    "print-on-demand",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jose": "^6.0.11",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
