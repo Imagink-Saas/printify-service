@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "dev:infisical": "INFISICAL_TOKEN=\"st.8f086849-d116-4699-a861-3a46f6eaaabd.030b698d901ec812fdf6dbe6f756e400.a11eb7398eb93621dd69eb85fcab503a\" infisical run --env=dev --path=/printify -- npm run dev"
   },
   "keywords": [
     "printify",
